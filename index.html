@@ -1,1 +1,149 @@
-<h1>Hello world</h1>
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap"
+    rel="stylesheet"
+  />
+  <script
+    src="https://kit.fontawesome.com/c961ccce14.js"
+    crossorigin="anonymous"
+  ></script>
+  <link rel="stylesheet" href="styles/reset.css" />
+  <link rel="stylesheet" href="styles/style.css" />
+  <link rel="icon" href="favicon_io/favicon.ico" type="image/x-icon" />
+</head>
+<body>
+  <section id="with_background">
+    <div class="section_slider">
+      <figure class="current_background"></figure>
+      <figure class="next_background"></figure>
+    </div>
+    <div class="wrapper">
+      <div class="top-bar">
+        <h1>Rockbook</h1>
+        <nav>
+          <button class="hamburger" id="hamburger">
+            <i class="fas fa-bars"></i>
+          </button>
+
+          <ul id="main_nav-bar" class="nav-bar">
+            <li><a href="#with_background">Home</a></li>
+            <li><a href="#demo_white_text">Where</a></li>
+            <li><a href="#third_section">Price</a></li>
+            <li><a href="#white_text">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="main-description">
+        <h2>Any Rock On Your Hand</h2>
+        <p>
+          Revolutionary application that allows you to identify every rock or
+          mineral.
+        </p>
+        <button class="main-button">Buy it now</button>
+        <button class="scroll-button">
+          <i class="fas fa-chevron-circle-up"></i>
+        </button>
+      </div>
+    </div>
+  </section>
+  <section id="demo_white_text" class="demo white-text">
+    <div class="wrapper">
+      <div class="second-wrapper">
+        <h2>Works in any browser</h2>
+        <p>
+          Identify, explore and share your rock and mineral observations.<br />
+          Rockbook is an app that helps you identify rocks and minerals using
+          photos.
+        </p>
+      </div>
+      <img src="img/safari_image.png" alt="safari browser image" />
+    </div>
+  </section>
+  <section id="third_section" class="third_section">
+    <div class="wrapper">
+      <p class="">Choose your subcription or get free</p>
+      <div class="sub">
+        <div class="sub-item">
+          <h3 class="sub-title">Forever Free</h3>
+          <ul class="sub-list">
+            <li>0$/month</li>
+            <li>1 Rockbook</li>
+            <li>3 Users</li>
+            <li>100 Shares</li>
+          </ul>
+          <button class="sub-button">Sing Up</button>
+        </div>
+        <div class="sub-item">
+          <h3 class="sub-title">One month</h3>
+          <ul class="sub-list">
+            <li>5$/month</li>
+            <li>10 Rockbooks</li>
+            <li>100 Users</li>
+            <li>Unlimited Shares</li>
+          </ul>
+          <button class="sub-button">Buy Now</button>
+        </div>
+        <div class="sub-item">
+          <h3 class="sub-title">Premium</h3>
+          <ul class="sub-list">
+            <li>40$/year</li>
+            <li>100 Rockbooks</li>
+            <li>Unlimited Users</li>
+            <li>Unlimited Shares</li>
+          </ul>
+          <button class="sub-button">Buy now</button>
+        </div>
+      </div>
+      <p class="question-text">
+        If you have got any questions related to the rock or mineral
+        identification <br />
+        please get in touch with us using the form below
+      </p>
+    </div>
+  </section>
+  <section id="white_text" class="white-text">
+    <div class="wrapper">
+      <h2>Get in Touch</h2>
+      <p>
+        Got any questions? Feel free to get in touch with us. We would love to
+        hear from you.
+      </p>
+      <form class="contact" action="/" method="GET">
+        <input type="text" name="user-name" id="name" required minlength="3" />
+        <input type="email" name="user-email" placeholder="Email..." required />
+        <textarea
+          name="user-message"
+          id="message"
+          placeholder="Message"
+          required
+          rows="8"
+        ></textarea>
+        <button type="submit" class="send-button">Send!</button>
+      </form>
+      <div class="icons">
+        <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
+        <a href="https://twitter.com"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="wrapper">
+      <p>2021. Made in Cracow.</p>
+      <nav>
+        <ul class="nav-bar">
+          <li>Home<a href="http://"></a></li>
+          <li>Team<a href="http://"></a></li>
+          <li>Our Story<a href="http://"></a></li>
+          <li>Help<a href="http://"></a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
